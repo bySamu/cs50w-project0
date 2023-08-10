@@ -1,0 +1,73 @@
+h3 {
+  text-align: center;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.libros {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0.4em auto;
+  display: grid;
+  place-items: center;
+  padding: 5px;
+  background-color: aqua;
+}
+
+#img_music_sc50 {
+  width: 200px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: aqua;
+  display: grid;
+  place-items: center;
+  margin: 0.4em auto;
+  padding: 5px;
+}
+
+#link_spotify {
+  color: #034e99;
+  border-radius: 10%;
+  cursor: pointer;
+  border: 0.1rem solid black;
+  box-shadow: 0.3rem 0.2rem rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  #letra_spotify {
+    font-size: small;
+    color: rgb(113, 0, 0);
+  }
+}
+iframe {
+  width: 280px;
+  height: 150px;
+  display: grid;
+  margin-top: 5%;
+}
+
+@media only screen and (min-width: 600px) {
+  iframe {
+    width: 500px;
+    height: 300px;
+    display: grid;
+    padding: 7px;
+    align-self: end;
+    position: relative;
+    top: -10%;
+    left: -3.5%;
+    background-color: red;
+  }
+}/*# sourceMappingURL=styles_entretenimiento.css.map */
