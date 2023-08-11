@@ -1,0 +1,34 @@
+body {
+  background-color: #F9E79F;
+}
+
+img {
+  width: 250px;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #161343;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: medium;
+}
+
+.armas {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #161343;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: x-large;
+}
+
+h3 {
+  font-family: "Alice", serif;
+  text-align: center;
+}/*# sourceMappingURL=styles_esgrima.css.map */

@@ -1,0 +1,57 @@
+img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#img_mago_oz {
+    width: 280px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#img_bullet {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+#link_bullet {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    font-size: larger;
+    color: black;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #161343;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+%videos {
+    margin: 0 auto;
+    width: 380px;
+    height: 250px;
+    display: block;
+}
+
+iframe {
+    @extend %videos;
+    width: 380px;
+}
+
+.video_edm {
+    @extend %videos;
+    width: 300px;
+}
+
+h3 {
+    display: grid;
+    justify-content: center;
+    font-family: 'Alice', serif;
+}

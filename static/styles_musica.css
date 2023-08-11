@@ -1,0 +1,58 @@
+img {
+  width: 300px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#img_mago_oz {
+  width: 280px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#img_bullet {
+  width: 200px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#link_bullet {
+  text-align: center;
+  display: grid;
+  place-items: center;
+  font-size: larger;
+  color: black;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #161343;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.video_edm, iframe {
+  margin: 0 auto;
+  width: 380px;
+  height: 250px;
+  display: block;
+}
+
+iframe {
+  width: 380px;
+}
+
+.video_edm {
+  width: 300px;
+}
+
+h3 {
+  display: grid;
+  justify-content: center;
+  font-family: "Alice", serif;
+}/*# sourceMappingURL=styles_musica.css.map */
